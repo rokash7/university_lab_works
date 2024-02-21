@@ -1,0 +1,6 @@
+[miestu skaicius] [pradzios taskas] [pabaigos taskas] //pirma eilute
+
+[miestas A] [miestas B] [atstumas tarp A ir B] //n eiluciu, skirtu aprasyti kelius tarp miesto A ir B
+
+
+miestu numeravimas prasideda nuo 0 :)
