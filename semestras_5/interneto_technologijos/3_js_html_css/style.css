@@ -1,0 +1,54 @@
+body{
+    background-color: #034732;
+    color: #C6C013;
+    font-size: 16px;
+}
+
+.inputC{
+    background-color: #008148;
+    color: #C6C013;
+    border: none;
+    cursor: text;
+}
+
+.buttonC{
+    background-color: #008148;
+    color: #C6C013;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+}
+
+.additionalText{
+    background-color: #49413c;
+    border: 2px solid #C6C013;
+}
+
+a, button{
+    background-color: #008148;
+    color: #C6C013;
+    border-radius: 5%;
+    border: 2px solid #C6C013;
+    cursor: pointer;
+}
+
+#table1{
+    border: 2px solid #C6C013;
+}
+
+#table1 th{
+    border: 1px solid #C0BABC;
+    background-color: #49413c;
+}
+
+#table1 td{
+    border: 1px solid #C0BABC;
+}
+
+#table1 table{
+    border: 1px solid #C0BABC;
+}
+
+::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #C0BABC !important;
+  }

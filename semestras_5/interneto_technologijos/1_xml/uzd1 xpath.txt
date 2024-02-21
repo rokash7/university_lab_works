@@ -1,0 +1,15 @@
+1.  //mėgstami_sporto_klubai:sportoKlubas[@gatve='Ukmergės']
+    ancestor:
+        //mėgstami_sporto_klubai:sportoKlubas[@gatve='Ukmergės']/ancestor::mėgstami_sporto_klubai:miestas
+    descendant:
+        //mėgstami_sporto_klubai:sportoKlubas[@gatve='Ukmergės']/descendant::mėgstami_sporto_klubai:treniruoklis
+    following-sibling:
+        //mėgstami_sporto_klubai:sportoKlubas[@gatve='Ukmergės']/following-sibling::mėgstami_sporto_klubai:sportoKlubas
+    preceding-sibling:
+        //mėgstami_sporto_klubai:sportoKlubas[@gatve='Ukmergės']/preceding-sibling:*
+    following:
+        //mėgstami_sporto_klubai:sportoKlubas[@gatve='Ukmergės']/following::mėgstami_sporto_klubai:sportoKlubas
+    preceding:
+        //mėgstami_sporto_klubai:sportoKlubas[@gatve='Ukmergės']/preceding::*
+    attribute:
+        //mėgstami_sporto_klubai:sportoKlubas[@gatve='Ukmergės']/attribute::pavadinimas

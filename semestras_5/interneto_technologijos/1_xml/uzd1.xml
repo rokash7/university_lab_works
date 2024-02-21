@@ -1,0 +1,68 @@
+<SportoKlubai>
+	<klubai>
+		<miestas pavadinimas="Vilnius">
+			<sportoKlubas pavadinimas="GymPlius" gatve="Ukmergės" numeris="256">
+				<erdvė zona="svorių">
+					<treniruoklis ref="a1" kiekis="10"/>
+					<treniruoklis ref="a2" kiekis="8"/>
+					<treniruoklis ref="a3" kiekis="4"/>
+				</erdvė>
+				<erdvė zona="cardio">
+					<treniruoklis ref="b1" kiekis="12"/>
+				</erdvė>
+			</sportoKlubas>
+			
+			<sportoKlubas pavadinimas="LemonGym" gatve="Ateities" numeris="31">
+				<erdvė zona="svorių">
+					<treniruoklis ref="a1" kiekis="10"/>
+					<treniruoklis ref="a2" kiekis="8"/>
+				</erdvė>
+				<erdvė zona="cardio">
+					<treniruoklis ref="b1" kiekis="5"/>
+					<treniruoklis ref="b2" kiekis="5"/>
+				</erdvė>
+			</sportoKlubas>
+		</miestas>
+		<miestas pavadinimas="Marijampolė">
+			<sportoKlubas pavadinimas="vs-express" gatve="V. Kudirkos" numeris="47">
+				<erdvė zona="svorių">
+					<treniruoklis ref="a1" kiekis="5"/>
+					<treniruoklis ref="a2" kiekis="4"/>
+					<treniruoklis ref="a3" kiekis="3"/>
+				</erdvė>
+				<erdvė zona="cardio">
+					<treniruoklis ref="b1" kiekis="8"/>
+					<treniruoklis ref="b2" kiekis="2"/>
+				</erdvė>
+			</sportoKlubas>
+		</miestas>
+	</klubai>
+
+	<inventorius>
+		<treniruoklis ID="a1">
+			<pavadinimas>bench</pavadinimas>
+			<kaina>800</kaina>
+			<gamintojas>TechnoGym</gamintojas>
+		</treniruoklis>
+		<treniruoklis ID="a2">
+			<pavadinimas>squat rack</pavadinimas>
+			<kaina>1400</kaina>
+			<gamintojas>TechnoGym</gamintojas>
+		</treniruoklis>
+		<treniruoklis ID="a3">
+			<pavadinimas>deadlift platform</pavadinimas>
+			<kaina>4000</kaina>
+			<gamintojas>Rogue</gamintojas>
+		</treniruoklis>
+		<treniruoklis ID="b1">
+			<pavadinimas>stationary bike</pavadinimas>
+			<kaina>1600</kaina>
+			<gamintojas>TechnoGym</gamintojas>
+		</treniruoklis>
+		<treniruoklis ID="b2">
+			<pavadinimas>treadmill</pavadinimas>
+			<kaina>1800</kaina>
+			<gamintojas>TechnoGym</gamintojas>
+		</treniruoklis>
+	</inventorius>
+</SportoKlubai>

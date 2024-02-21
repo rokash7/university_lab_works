@@ -1,0 +1,154 @@
+{
+    "SportoKlubai": {
+      "klubai": {
+        "miestas": [
+          {
+            "pavadinimas": "Vilnius",
+            "sportoKlubas": [
+              {
+                "pavadinimas": "GymPlius",
+                "gatve": "Ukmergės",
+                "numeris": "256",
+                "atidarymo_data": "2019-10-01",
+                "erdvė": [
+                  {
+                    "zona": "svorių",
+                    "treniruoklis": [
+                      {
+                        "ref": "a1",
+                        "kiekis": "10"
+                      },
+                      {
+                        "ref": "a2",
+                        "kiekis": "8"
+                      },
+                      {
+                        "ref": "a3",
+                        "kiekis": "4"
+                      }
+                    ]
+                  },
+                  {
+                    "zona": "cardio",
+                    "treniruoklis": {
+                      "ref": "b1",
+                      "kiekis": "12"
+                    }
+                  }
+                ]
+              },
+              {
+                "pavadinimas": "LemonGym",
+                "gatve": "Ateities",
+                "numeris": "31",
+                "atidarymo_data": "2017-01-01",
+                "erdvė": [
+                  {
+                    "zona": "svorių",
+                    "treniruoklis": [
+                      {
+                        "ref": "a1",
+                        "kiekis": "10"
+                      },
+                      {
+                        "ref": "a2",
+                        "kiekis": "8"
+                      }
+                    ]
+                  },
+                  {
+                    "zona": "cardio",
+                    "treniruoklis": [
+                      {
+                        "ref": "b1",
+                        "kiekis": "5"
+                      },
+                      {
+                        "ref": "b2",
+                        "kiekis": "5"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pavadinimas": "Marijampolė",
+            "sportoKlubas": {
+              "pavadinimas": "vs-express",
+              "gatve": "V. Kudirkos",
+              "numeris": "47",
+              "atidarymo_data": "2020-06-01",
+              "erdvė": [
+                {
+                  "zona": "svorių",
+                  "treniruoklis": [
+                    {
+                      "ref": "a1",
+                      "kiekis": "5"
+                    },
+                    {
+                      "ref": "a2",
+                      "kiekis": "4"
+                    },
+                    {
+                      "ref": "a3",
+                      "kiekis": "3"
+                    }
+                  ]
+                },
+                {
+                  "zona": "cardio",
+                  "treniruoklis": [
+                    {
+                      "ref": "b1",
+                      "kiekis": "8"
+                    },
+                    {
+                      "ref": "b2",
+                      "kiekis": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "inventorius": {
+        "treniruoklis": [
+          {
+            "ID": "a1",
+            "pavadinimas": "bench",
+            "kaina": "800",
+            "gamintojas": "TechnoGym"
+          },
+          {
+            "ID": "a2",
+            "pavadinimas": "squat rack",
+            "kaina": "1400.50",
+            "gamintojas": "TechnoGym"
+          },
+          {
+            "ID": "a3",
+            "pavadinimas": "deadlift platform",
+            "kaina": "4000",
+            "gamintojas": "Rogue"
+          },
+          {
+            "ID": "b1",
+            "pavadinimas": "stationary bike",
+            "kaina": "1600.50",
+            "gamintojas": "TechnoGym"
+          },
+          {
+            "ID": "b2",
+            "pavadinimas": "treadmill",
+            "kaina": "1800",
+            "gamintojas": "TechnoGym"
+          }
+        ]
+      }
+    }
+  }

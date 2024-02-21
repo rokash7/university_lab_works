@@ -1,0 +1,92 @@
+body{
+    background-color: #f5e8c1;
+    color:#223673;
+}
+
+footer{
+    background-color: #e8c96d;
+}
+
+p{
+ color: #4169E1;
+}
+
+body li{
+    color: inherit;
+}
+
+th{
+    color: #223673 !important;
+}
+
+table, tr, td, th {
+    border: 1px solid #223673;
+    color: #4169E1;
+    }
+
+#h2_1{
+    text-align: center;
+}
+
+#pic1{
+    width: 440px;
+}
+
+#pageDescription{
+    text-align: left;
+}
+
+#b_submit, #b_clear{
+    width: 87px;
+}
+
+#select_gender{
+    width: 178px;
+}
+
+.h_class{
+    color: #223673;
+}
+
+p[title="titulinis"]{
+    background-color: #e8c96d;
+    border-radius: 5%;
+}
+
+input:focus{
+    background-color: #f5e8c1;
+}
+
+input[id*="b_"]{
+    background-color: #223673;
+    color: #f5e8c1;
+}
+
+nav > a.myButton {
+    background-color: #223673;
+    border: none;
+    color: #f5e8c1;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+@media only screen and (min-width: 1280px) {
+    .homePage {
+        max-width: 1800px;
+        margin: auto;
+        padding: 20px;
+    }
+  }
+
+@media only screen and (min-width: 400px) {
+    .homePage {
+        max-width: 440px;
+        margin: auto;
+        padding: 20px;
+    }
+}
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab4</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div>
+        <form name="form1" id="form1" action="">
+            <div>
+                <input class="inputC" id="input_name" name="name" placeholder="Vardas"><br>
+                <!-- <input class="inputC" id="input_surname" name="surname" placeholder="Pavardė"><br> -->
+                <input class="inputC" id="input_age" name="age" min="0" placeholder="Amžius"><br>
+                <!-- <input class="inputC" id="input_email" name="email" placeholder="email@address.com"><br> -->
+                <input class="inputC" id="input_date" name="date" placeholder="YYYY-MM-DD"><br>
+                <!-- <SELECT class="inputC" id="select_gender" size="1" name="gender">
+                    <OPTION value="m">Vyras</OPTION>
+                    <OPTION value="f">Moteris</OPTION>
+                </SELECT> -->
+            </div>
+            <div id="error">
+                <div id="name_error" style="display: none">Prašome įvesti vardą!</div>
+                <div id="age_error" style="display: none">Amžius turi būti teigiamas skaičius didesnis už 0!</div>
+                <div id="date_error" style="display: none">Neteisinga data!</div>
+            </div>
+            <div>
+                <input class="buttonC" id="b_submit" type="submit" value="Siųsti">
+                <input class="buttonC" id="b_clear" type="reset" value="Valyti">
+            </div>
+        </form>
+    </div>
+    <div id="part3">
+        <br>
+        <div class="additionalText" id="uzd_3_1">
+            <p id="para_3_1">Šis tekstas pasikeičia paspaudus žemiau esantį mygtuką.<br>3.1 Egzistuojančių HTML dokumento žymių
+                tekstinio turinio pakeitimas (pvz. paragrafo teksto pakeitimas)</p>
+            <button id="b3_1">Pakeisti tekstą.</button>
+        </div>
+        <br>
+        <div class="additionalText" id="uzd_3_2">
+            <p id="para_3_2">Šis tekstas pasikeičia paspaudus žemiau esantį mygtuką.<br>3.2 Egzistuojančių žymių stiliaus pakeitimas
+                (atributui style priskiriant naują reikšmę)
+            </p>
+            <button id="b3_2">Pakeisti tekstą.</button>
+        </div>
+        <br>
+        <div class="additionalText" id="uzd_3_3">
+            <p id="para_3_3">Šis tekstas pasikeičia paspaudus žemiau esantį mygtuką.<br>3.3 Egzistuojančių žymių išmetimas (pvz.
+                ištrinti įvedimo lauke numeriu nurodytą paragrafą)</p>
+            <button id="b3_3">Pakeisti tekstą.</button>
+        </div>
+        <br>
+        <div class="additionalText" id="uzd_3_4">
+            <p id="para_3_4">Šis tekstas pasikeičia paspaudus žemiau esantį mygtuką.<br>3.4 Naujų žymių įterpimas (pvz. teksto gale
+                pridėti paragrafą su tekstu, įvestu įvedimo lauke)</p>
+            <button id="b3_4">Pakeisti tekstą.</button>
+        </div>
+        <br>
+    </div>
+    <div id="table1">
+        <div>Duomenų atvaizdavimas</div>
+        <button id="b4">Atvaizduoti duomenis lentelėje.</button>
+        <br><br>
+        <table>
+            <tr>
+                <th>Vardas</th>
+                <th>Amžius</th>
+                <th>Data</th>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+</html>
