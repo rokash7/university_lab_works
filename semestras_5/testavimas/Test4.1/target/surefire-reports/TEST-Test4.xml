@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="Test4" time="53.778" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="user.country.format" value="LT"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Rokas\.jenkins\workspace\Uzd4RP"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Rokas\.jenkins\workspace\Uzd4RP"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Rokas\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1257"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Users\Rokas\AppData\Roaming\local\bin;C:\Users\Rokas\AppData\Roaming\cabal\bin;C:\ProgramData\chocolatey\lib\ghc\tools\ghc-8.10.2\bin;C:\tools\msys64;C:\Users\Rokas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Rokas\AppData\Local\Microsoft\WindowsApps;C:\Users\Rokas\.dotnet\tools;C:\Users\Rokas\AppData\Local\GitHubDesktop\bin;C:\tools\ghc-9.0.1\bin;C:\Users\Rokas\AppData\Roaming\npm;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Rokas"/>
+    <property name="user.timezone" value="Europe/Vilnius"/>
+    <property name="file.encoding" value="Cp1257"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="Rokas"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -file C:\Users\Rokas\IdeaProjects\Test4.1 test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="lt"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="native.encoding" value="Cp1257"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Test4" name="data1" time="26.151"/>
+  <testcase classname="Test4" name="data2" time="27.627"/>
+</testsuite>
